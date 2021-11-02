@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 function Main1() {
   return (
     <div className="p-4 grid grid-flow-row-dense lg:grid-cols-3 gap-4">

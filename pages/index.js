@@ -1,6 +1,8 @@
 import Head from "next/head";
-import Headers from "../components/Headers";
-import Main1 from "../components/Main1";
+import dynamic from "next/dynamic";
+
+const Headers = dynamic(() => import("../components/Headers"));
+const Main1 = dynamic(() => import("../components/Main1"));
 
 export default function Home() {
   return (
